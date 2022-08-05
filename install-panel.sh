@@ -458,7 +458,7 @@ configure() {
 
   # Fill in environment:database credentials automatically
   php artisan p:environment:database \
-    --host="127.0.0.1" \
+    --host="localhost" \
     --port="3306" \
     --database="$MYSQL_DB" \
     --username="$MYSQL_USER" \
